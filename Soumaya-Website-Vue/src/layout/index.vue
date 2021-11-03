@@ -1,24 +1,26 @@
 <template>
   <div id="app">
-    <AppHeader></AppHeader>
+    <BlueAppHeader></BlueAppHeader>
+    <WhiteAppHeader></WhiteAppHeader>
     <div class="wrapper">
       <transition name="fade">
-        <router-view></router-view>
+       <!-- <router-view></router-view>-->
       </transition>
     </div>
     <AppFooter></AppFooter>
   </div>
-
 </template>
 
 <script>
-import AppHeader from './Header.vue'
+import BlueAppHeader from './BlueHeader.vue'
+import WhiteAppHeader from './WhiteHeader.vue'
 import AppFooter from './Footer.vue'
 
 export default {
-  name: 'AppLayout',
+  name: 'AASTSERVICES',
   components: {
-    AppHeader,
+    BlueAppHeader,
+    WhiteAppHeader,
     AppFooter
   }
 }

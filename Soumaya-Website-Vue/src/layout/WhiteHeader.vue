@@ -25,7 +25,7 @@
       </div>
       </b-collapse>
     </b-navbar>
-    
+  
   </div>
 </template>
 
@@ -48,15 +48,19 @@ export default {
 }
 .test{
   text-align: center;
-  padding: 10px;
+  padding: 25px;
 }
 .testa{
   text-align: right;
 }
 .navbar.navbar-dark.bg-dark{
-    background-color: #006fba!important;
+    background-color: #ffffff!important; // white background
  }
  .navbar navbar-dark bg-dark navbar-expand-lg{
    margin:25px;
  }
+
+ .navbar-dark .navbar-brand {
+    color:  #006fba!important;
+}
 </style>

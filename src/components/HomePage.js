@@ -2,9 +2,11 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import { Navbar, Nav } from 'react-bootstrap';
-import background from "/Users/cfeochari/Documents/Soumaya-New-Website/src/components/2022-02-24.png";
+import background from "/Users/cfeochari/Documents/Soumaya-website-new/src/components/2022-02-24.png";
 import './HomePage.css';
-import cpa from "/Users/cfeochari/Documents/Soumaya-New-Website/src/components/CPA-Logo.jpeg";
+import cpa from  "/Users/cfeochari/Documents/Soumaya-website-new/src/components/CPA-Logo.jpeg";
+import soumaya from  "/Users/cfeochari/Documents/Soumaya-website-new/src/components/SoumayaPic.jpg";
+//SoumayaPic.jpg
 import { Button } from 'react-bootstrap';
 
 const HomePage = () => (
@@ -122,28 +124,16 @@ const HomePage = () => (
     </div>
 
 
-    <h2 style={{ textAlign: "center", padding: 55 }} class="title">A propos de nous <br /><br /> Notre équipe</h2>
+    <h2 style={{ textAlign: "center", padding: 40 }} class="title">A propos de nous <br /><br /> Notre équipe</h2>
     <div id="about-section">
-      <div class="column4">
+      <div class="column6">
         <div class="card">
-          <img src={require("/Users/cfeochari/Documents/Soumaya-New-Website/src/components/SoumayaPic.jpg")} alt="Soumaya" style={{ width: "60%" }}></img>
+          <img src={soumaya} alt="Soumaya" style={{ width: "25%" }}></img>
           <div class="container">
-            <h2>Soumaya Arraouf</h2>
+            <h2 style={{ textAlign: "center"}} >Soumaya Arraouf</h2>
             <p class="title">CPA - COMPTABLE PROFESSIONNELLE AGRÉÉE</p>
-            <p>514-627-3222</p>
-            <p>arraouf.soumaya@yahoo.fr</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="column4">
-        <div class="card">
-          <img src={require("/Users/cfeochari/Documents/Soumaya-New-Website/src/components/BouchaibPic.jpg")} alt="Bouchaib" style={{ width: "60%" }}></img>
-          <div class="container">
-            <h2>Bouchaib Latrach</h2>
-            <p class="title">DIPLÔMÉ EN COMPTABILITÉ ET FISCALITÉ</p>
-            <p>514-441-3038</p>
-            <p>latrachb@yahoo.fr</p>
+            <p style={{ textAlign: "center", padding: 10 }}>514-627-3222</p>
+            <p style={{ textAlign: "center", padding: 10 }}>arraouf.soumaya@yahoo.fr</p>
           </div>
         </div>
       </div>
@@ -151,7 +141,7 @@ const HomePage = () => (
 
     <h1 class="title">Contact</h1>
     <div class="column4">
-      <div class="title"><iframe width="800" height="650" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJw2E76jkZyUwRUQgFdbtJl74&key=AIzaSyBOWprADKdjysjHzCGAW-3KDAD0FxMZEYw"></iframe></div>
+      <div class="title"><iframe width="800" height="650" title ="location" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJw2E76jkZyUwRUQgFdbtJl74&key=AIzaSyBOWprADKdjysjHzCGAW-3KDAD0FxMZEYw"></iframe></div>
     </div>
 
     <div class="column4">

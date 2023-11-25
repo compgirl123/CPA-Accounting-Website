@@ -2,10 +2,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import { Navbar, Nav } from 'react-bootstrap';
-import background from "/Users/cfeochari/Documents/Soumaya-website-new/src/components/2022-02-24.png";
+//import background from "/Users/cfeochari/Documents/Soumaya-website-new/src/components/2022-02-24.png";
+import background from "./2022-02-24.png";
 import './HomePage.css';
-import cpa from  "/Users/cfeochari/Documents/Soumaya-website-new/src/components/CPA-Logo.jpeg";
-import soumaya from  "/Users/cfeochari/Documents/Soumaya-website-new/src/components/SoumayaPic.jpg";
+//import cpa from  "/Users/cfeochari/Documents/Soumaya-website-new/src/components/CPA-Logo.jpeg";
+import cpa from "./CPA-Logo.jpeg";
+//import soumaya from  "/Users/cfeochari/Documents/Soumaya-website-new/src/components/SoumayaPic.jpg";
+import soumaya from "./SoumayaPic.jpg";
 //SoumayaPic.jpg
 import { Button } from 'react-bootstrap';
 
@@ -161,7 +164,7 @@ const HomePage = () => (
         email
        </span>
         Email</h4>
-      <p class="title">arraouf.soumaya@yahoo.fr <br /> latrachb@yahoo.fr </p>
+      <p class="title">arraouf.soumaya@yahoo.fr <br /></p>
     </div>
   </div>
 
